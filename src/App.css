@@ -1,38 +1,106 @@
+
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #F55A5A;
+  height: 8vh;
+  margin-bottom: 10%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.top--image{
+  margin-top: 2.5vh;
+  height: inherit;
+  width: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top--image>img{
+  width: max-content;
 }
+
+.top--content{
+  color:white;
+  margin-top: 2.7vh;
+  margin-left: 0.5vw;
+  margin-bottom: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 98%;
+  line-height: 18px;
+  letter-spacing: 0.025em;
+
+}
+
+.card{
+  display: flex;
+  margin-left: 15%;
+  height: 20%;
+  width:70%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.card--image{
+  height: 19rem;
+  width:40%;
+  /* background-color: black; */
+  overflow: hidden;
+}
+
+
+
+ .card--image>img{
+   height: inherit;
+   width: 100%;
+   border-radius: 5px;
+}
+
+.card--info{
+  margin-left:5%;
+  width: 60%;
+}
+.card--info-view{
+  display: flex;
+  margin-top: 5%;
+  /* margin-left: 5%; */
+}
+.card--info-view>span{
+  padding-left: 2% ;
+  padding-right: 6%;
+  letter-spacing: 1%;
+}
+
+.card--info-main{
+  text-align: left;
+  color: #2B283A;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.card--info-main>h1,.card-date{
+  font-weight: 700;
+}
+
+.card-des{
+  font-weight: 400;
+  
+}
+
+hr{
+  border: 1px solid #F5F5F5;
+ 
+  margin-bottom: 3%;
+  margin-left:15%;
+  width:70% ;
+}
+
+
+
+
